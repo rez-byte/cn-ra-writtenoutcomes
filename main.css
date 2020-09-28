@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+
+h1, h3, h4 {color: white;}
+
+p {color: white}
+
+
+/* body {background-image: url("images/91082-Aruba-Teal-Product.jpg");} */
+body {
+    background-image: url("images/0_cLUSgHqt5kXYCXFZ.gif");
+    background-position: center;
+    /* background-color: #130b1b; */
+    /* background-repeat: repeat; */
+}
+
+h1 {font-size: 40px;
+    text-indent: 40px;
+    font-family: 'Proza Libre', sans-serif;}
+
+h3 {
+    font-size: 28px;
+    text-align: center;
+    margin: 10px 100px 10px;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    margin: 10px 100px 10px;
+}
+
+h4 {font-family: 'Proza Libre', sans-serif;}
+
+
+
+li {
+    float: left;
+  }
+
+  a {
+    display: block;
+    padding: 15px;
+}
+
+
+.navbar {
+    background-color: hsla(0, 0%, 100%, 0.4);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 18px;
+    flex-wrap: wrap;
+    flex
+}
+/* 
+a {
+    border: solid 5px rgb(255, 77, 58);
+} */
+
+a:hover {
+    background-color: rgb(72, 72, 255);
+    color: rgb(255, 255, 255);
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 18px;
+    overflow: hidden;
+  }
+
+
+.references {
+    background-color: hsla(0, 0%, 100%, 0.4);
+}
+
+
+.link {
+    background-color: hsla(0, 0%, 100%, 0.4);
+    border-radius: 100px;
+    border: 200px;
+}
